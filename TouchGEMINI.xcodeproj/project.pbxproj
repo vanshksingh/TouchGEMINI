@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A33E0202B8D9488005A87CB /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A33E01F2B8D9488005A87CB /* WindowController.swift */; };
+		5A33E0232B8D964B005A87CB /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A33E0222B8D964B005A87CB /* AppKit.framework */; };
+		5A33E0262B8D9657005A87CB /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = 5A33E0252B8D9657005A87CB /* GoogleGenerativeAI */; };
+		5A41954A2B8D934F00A78E13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4195492B8D934F00A78E13 /* AppDelegate.swift */; };
+		5A41954C2B8D934F00A78E13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A41954B2B8D934F00A78E13 /* ViewController.swift */; };
+		5A41954E2B8D935100A78E13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A41954D2B8D935100A78E13 /* Assets.xcassets */; };
+		5A4195512B8D935100A78E13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A41954F2B8D935100A78E13 /* Main.storyboard */; };
+		5A41955C2B8D935100A78E13 /* TouchGEMINITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A41955B2B8D935100A78E13 /* TouchGEMINITests.swift */; };
+		5A4195662B8D935100A78E13 /* TouchGEMINIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4195652B8D935100A78E13 /* TouchGEMINIUITests.swift */; };
+		5A4195682B8D935100A78E13 /* TouchGEMINIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4195672B8D935100A78E13 /* TouchGEMINIUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A4195582B8D935100A78E13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A41953E2B8D934F00A78E13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A4195452B8D934F00A78E13;
+			remoteInfo = TouchGEMINI;
+		};
+		5A4195622B8D935100A78E13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A41953E2B8D934F00A78E13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A4195452B8D934F00A78E13;
+			remoteInfo = TouchGEMINI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A33E01F2B8D9488005A87CB /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		5A33E0222B8D964B005A87CB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5A4195462B8D934F00A78E13 /* TouchGEMINI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchGEMINI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A4195492B8D934F00A78E13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A41954B2B8D934F00A78E13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A41954D2B8D935100A78E13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A4195502B8D935100A78E13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A4195522B8D935100A78E13 /* TouchGEMINI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TouchGEMINI.entitlements; sourceTree = "<group>"; };
+		5A4195572B8D935100A78E13 /* TouchGEMINITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchGEMINITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A41955B2B8D935100A78E13 /* TouchGEMINITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchGEMINITests.swift; sourceTree = "<group>"; };
+		5A4195612B8D935100A78E13 /* TouchGEMINIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchGEMINIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A4195652B8D935100A78E13 /* TouchGEMINIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchGEMINIUITests.swift; sourceTree = "<group>"; };
+		5A4195672B8D935100A78E13 /* TouchGEMINIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchGEMINIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A4195432B8D934F00A78E13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A33E0232B8D964B005A87CB /* AppKit.framework in Frameworks */,
+				5A33E0262B8D9657005A87CB /* GoogleGenerativeAI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4195542B8D935100A78E13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A41955E2B8D935100A78E13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A33E0212B8D964B005A87CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A33E0222B8D964B005A87CB /* AppKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A41953D2B8D934F00A78E13 = {
+			isa = PBXGroup;
+			children = (
+				5A4195482B8D934F00A78E13 /* TouchGEMINI */,
+				5A41955A2B8D935100A78E13 /* TouchGEMINITests */,
+				5A4195642B8D935100A78E13 /* TouchGEMINIUITests */,
+				5A4195472B8D934F00A78E13 /* Products */,
+				5A33E0212B8D964B005A87CB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5A4195472B8D934F00A78E13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A4195462B8D934F00A78E13 /* TouchGEMINI.app */,
+				5A4195572B8D935100A78E13 /* TouchGEMINITests.xctest */,
+				5A4195612B8D935100A78E13 /* TouchGEMINIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A4195482B8D934F00A78E13 /* TouchGEMINI */ = {
+			isa = PBXGroup;
+			children = (
+				5A4195492B8D934F00A78E13 /* AppDelegate.swift */,
+				5A41954B2B8D934F00A78E13 /* ViewController.swift */,
+				5A41954D2B8D935100A78E13 /* Assets.xcassets */,
+				5A41954F2B8D935100A78E13 /* Main.storyboard */,
+				5A33E01F2B8D9488005A87CB /* WindowController.swift */,
+				5A4195522B8D935100A78E13 /* TouchGEMINI.entitlements */,
+			);
+			path = TouchGEMINI;
+			sourceTree = "<group>";
+		};
+		5A41955A2B8D935100A78E13 /* TouchGEMINITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A41955B2B8D935100A78E13 /* TouchGEMINITests.swift */,
+			);
+			path = TouchGEMINITests;
+			sourceTree = "<group>";
+		};
+		5A4195642B8D935100A78E13 /* TouchGEMINIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A4195652B8D935100A78E13 /* TouchGEMINIUITests.swift */,
+				5A4195672B8D935100A78E13 /* TouchGEMINIUITestsLaunchTests.swift */,
+			);
+			path = TouchGEMINIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A4195452B8D934F00A78E13 /* TouchGEMINI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A41956B2B8D935100A78E13 /* Build configuration list for PBXNativeTarget "TouchGEMINI" */;
+			buildPhases = (
+				5A4195422B8D934F00A78E13 /* Sources */,
+				5A4195432B8D934F00A78E13 /* Frameworks */,
+				5A4195442B8D934F00A78E13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchGEMINI;
+			packageProductDependencies = (
+				5A33E0252B8D9657005A87CB /* GoogleGenerativeAI */,
+			);
+			productName = TouchGEMINI;
+			productReference = 5A4195462B8D934F00A78E13 /* TouchGEMINI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A4195562B8D935100A78E13 /* TouchGEMINITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A41956E2B8D935100A78E13 /* Build configuration list for PBXNativeTarget "TouchGEMINITests" */;
+			buildPhases = (
+				5A4195532B8D935100A78E13 /* Sources */,
+				5A4195542B8D935100A78E13 /* Frameworks */,
+				5A4195552B8D935100A78E13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A4195592B8D935100A78E13 /* PBXTargetDependency */,
+			);
+			name = TouchGEMINITests;
+			productName = TouchGEMINITests;
+			productReference = 5A4195572B8D935100A78E13 /* TouchGEMINITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A4195602B8D935100A78E13 /* TouchGEMINIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A4195712B8D935100A78E13 /* Build configuration list for PBXNativeTarget "TouchGEMINIUITests" */;
+			buildPhases = (
+				5A41955D2B8D935100A78E13 /* Sources */,
+				5A41955E2B8D935100A78E13 /* Frameworks */,
+				5A41955F2B8D935100A78E13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A4195632B8D935100A78E13 /* PBXTargetDependency */,
+			);
+			name = TouchGEMINIUITests;
+			productName = TouchGEMINIUITests;
+			productReference = 5A4195612B8D935100A78E13 /* TouchGEMINIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A41953E2B8D934F00A78E13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					5A4195452B8D934F00A78E13 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					5A4195562B8D935100A78E13 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 5A4195452B8D934F00A78E13;
+					};
+					5A4195602B8D935100A78E13 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 5A4195452B8D934F00A78E13;
+					};
+				};
+			};
+			buildConfigurationList = 5A4195412B8D934F00A78E13 /* Build configuration list for PBXProject "TouchGEMINI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A41953D2B8D934F00A78E13;
+			packageReferences = (
+				5A33E0242B8D9657005A87CB /* XCRemoteSwiftPackageReference "generative-ai-swift" */,
+			);
+			productRefGroup = 5A4195472B8D934F00A78E13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A4195452B8D934F00A78E13 /* TouchGEMINI */,
+				5A4195562B8D935100A78E13 /* TouchGEMINITests */,
+				5A4195602B8D935100A78E13 /* TouchGEMINIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A4195442B8D934F00A78E13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A41954E2B8D935100A78E13 /* Assets.xcassets in Resources */,
+				5A4195512B8D935100A78E13 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4195552B8D935100A78E13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A41955F2B8D935100A78E13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A4195422B8D934F00A78E13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A41954C2B8D934F00A78E13 /* ViewController.swift in Sources */,
+				5A33E0202B8D9488005A87CB /* WindowController.swift in Sources */,
+				5A41954A2B8D934F00A78E13 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4195532B8D935100A78E13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A41955C2B8D935100A78E13 /* TouchGEMINITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A41955D2B8D935100A78E13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4195662B8D935100A78E13 /* TouchGEMINIUITests.swift in Sources */,
+				5A4195682B8D935100A78E13 /* TouchGEMINIUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A4195592B8D935100A78E13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A4195452B8D934F00A78E13 /* TouchGEMINI */;
+			targetProxy = 5A4195582B8D935100A78E13 /* PBXContainerItemProxy */;
+		};
+		5A4195632B8D935100A78E13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A4195452B8D934F00A78E13 /* TouchGEMINI */;
+			targetProxy = 5A4195622B8D935100A78E13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A41954F2B8D935100A78E13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A4195502B8D935100A78E13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A4195692B8D935100A78E13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A41956A2B8D935100A78E13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		5A41956C2B8D935100A78E13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TouchGEMINI/TouchGEMINI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vks.TouchGEMINI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5A41956D2B8D935100A78E13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TouchGEMINI/TouchGEMINI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vks.TouchGEMINI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5A41956F2B8D935100A78E13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vks.TouchGEMINITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouchGEMINI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TouchGEMINI";
+			};
+			name = Debug;
+		};
+		5A4195702B8D935100A78E13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vks.TouchGEMINITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouchGEMINI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TouchGEMINI";
+			};
+			name = Release;
+		};
+		5A4195722B8D935100A78E13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vks.TouchGEMINIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TouchGEMINI;
+			};
+			name = Debug;
+		};
+		5A4195732B8D935100A78E13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vks.TouchGEMINIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TouchGEMINI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A4195412B8D934F00A78E13 /* Build configuration list for PBXProject "TouchGEMINI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4195692B8D935100A78E13 /* Debug */,
+				5A41956A2B8D935100A78E13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A41956B2B8D935100A78E13 /* Build configuration list for PBXNativeTarget "TouchGEMINI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A41956C2B8D935100A78E13 /* Debug */,
+				5A41956D2B8D935100A78E13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A41956E2B8D935100A78E13 /* Build configuration list for PBXNativeTarget "TouchGEMINITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A41956F2B8D935100A78E13 /* Debug */,
+				5A4195702B8D935100A78E13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A4195712B8D935100A78E13 /* Build configuration list for PBXNativeTarget "TouchGEMINIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4195722B8D935100A78E13 /* Debug */,
+				5A4195732B8D935100A78E13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5A33E0242B8D9657005A87CB /* XCRemoteSwiftPackageReference "generative-ai-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/generative-ai-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5A33E0252B8D9657005A87CB /* GoogleGenerativeAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A33E0242B8D9657005A87CB /* XCRemoteSwiftPackageReference "generative-ai-swift" */;
+			productName = GoogleGenerativeAI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5A41953E2B8D934F00A78E13 /* Project object */;
+}
